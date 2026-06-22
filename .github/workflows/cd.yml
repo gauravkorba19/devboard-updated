@@ -24,6 +24,5 @@ jobs:
 
             - name: Deploy the containers with Docker Compose
               run: |
-                git pull origin master
                 docker compose pull
                 docker compose up -d
